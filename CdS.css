@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+#caixa_pesquisar{
+    background-color: #3498db;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+#barrapesquisar{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.button{
+    background-color: #2136f8;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.list{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.list th,.list td{
+    padding: 10px;
+    text-align: left;
+}
+.list th{
+    background-color: #3498db;
+    color: #fff;
+}
+.list tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.pagination{
+    margin-top: 20px;
+    text-align: center;
+}
+button#previousPage, button#nextPage{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button#previousPage:hover,button#nextPage:hover{
+    background-color: #2980b9;
+}
